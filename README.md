@@ -11,7 +11,7 @@ products:
 - azure-active-directory
 - azure-active-directory-b2c
 - microsoft-identity-platform
-description: "Tutorial: Enable your Python Flask webapp to sign in users and call APIs with the Microsoft identity platform"
+description: "Tutorial: Enable your Python Flask webapp to sign in users, protect endpoints, and call APIs with the Microsoft identity platform"
 urlFragment: "ms-identity-python-flask-tutorial"
 ---
 
@@ -44,23 +44,21 @@ Please refer to each sample's README for sample-specific recommendations.
 
 ## Contents
 
-- For **Azure AD**, start from [here](./I-Authentication/i-Sign-In-My-Tenant/README.md)
-- For **Azure AD B2C**, start from [here](./I-Authentication/iii-Sign-In-B2C/README.md)
-
-Alternatively, choose below the sample you want to review.  
+- For **Azure AD**, start from [here]((./1-Authentication/1.1-Flask-AuthN-My-Tenant/README.md)
+- For **Azure AD B2C**, start from [here](./1-Authentication/1.3-Flask-AuthN-B2C/README.md)
 
 ### Chapter 1: Authentication
 
 |               |               |
 |---------------|---------------|
-| <img src="./1-Authentication/1.1-Flask-AuthN-My-Tenant/ReadmeFiles/sign-in.png" width="200"> | [**Sign in with Azure AD**](./1-Authentication/1.1-Flask-AuthN-My-Tenant) </br> Sign in your users with **Azure AD** and learn to work with **ID Tokens**.  |
-| <img src="./1-Authentication/1.3-Flask-AuthN-B2C/ReadmeFiles/sign-in.png" width="200"> | [**Sign in with Azure AD B2C**](1-Authentication/1.3-Flask-AuthN-B2C) </br> Sign-in your customers with **Azure AD B2C**. Learn to integrate with **external social identity providers**. Learn how to use **user-flows** and **custom policies**. |
+| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**1.1 Sign in with Azure AD**](./1-Authentication/1.1-Flask-AuthN-My-Tenant) </br> Sign in your users with **Azure AD** and learn to work with **ID Tokens**.  |
+| <img src="./ReadmeFiles/sign-in-2.png" width="200"> | [**1.2 Sign in with Azure AD B2C**](./1-Authentication/1.3-Flask-AuthN-B2C) </br> Signmin your customers with **Azure AD B2C**. Learn to integrate with **external social identity providers**. Learn how to use **user-flows** and **custom policies**. |
 
 ### Chapter 2: Call MS Graph
 
 |                |               |
 |----------------|---------------|
-| <img src="./2-CallGraphAPI/2.1-Flask-Call-Graph/ReadmeFiles/callgraph.png" width="200"> | [**Acquire an Access Token from Azure AD and call Microsoft Graph**](./2-CallGraphAPI/2-1-Flask-Call-Graph) </br> Acquire an **Access Token** that Authorizes you to call the **Microsoft Graph API**. |
+| <img src="./ReadmeFiles/topology.png" width="200"> | [**2.1 Acquire an Access Token from Azure AD and call Microsoft Graph**](./2-CallGraphAPI/2-1-Flask-Call-Graph) </br> Acquire an **Access Token** that Authorizes you to call the **Microsoft Graph API**. |
 
 <!-- ### Chapter 3: protect your web API
 
@@ -79,11 +77,11 @@ Alternatively, choose below the sample you want to review.
 
 |                 |               |
 |-----------------|---------------|
-| <img src="./3-Deployment/3.1-Flask-Deploy-To-Azure/ReadmeFiles/deployment.png" width="200"> | [**Deploy to Azure Storage and App Service**](./3-Deployment/3.1-Flask-Deploy-To-Azure) </br> Prepare your app for deployment to **Azure App Service** and use vscode to deploy your code. |
+| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**3.1 Deploy to Azure Storage and App Service**](./3-Deployment/3.1-Flask-Deploy-To-Azure) </br> Prepare your app for deployment to **Azure App Service** and use vscode to deploy your code. |
 
 ## We'd love your feedback!
 
-Were we successful in addressing your learning objective? Take a moment to [share your experience with us](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR73pcsbpbxNJuZCMKN0lURpUNDVHTkg2VVhWMTNYUTZEM05YS1hSN01EOSQlQCN0PWcu).
+<!-- Were we successful in addressing your learning objective? Take a moment to [share your experience with us](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR73pcsbpbxNJuZCMKN0lURpUNDVHTkg2VVhWMTNYUTZEM05YS1hSN01EOSQlQCN0PWcu). -->
 
 ## More information
 
@@ -107,7 +105,7 @@ See more code samples:
 
 Use [Stack Overflow](http://stackovergrant.com/questions/tagged/msal) to get support from the community.
 Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before.
-Make sure that your questions or comments are tagged with [`ms-identity` `azure-ad` `azure-ad-b2c` `msal` `javascript`].
+Make sure that your questions or comments are tagged with [`ms-identity` `azure-ad` `azure-ad-b2c` `msal` `python`].
 
 If you find a bug in the sample, please raise the issue on [GitHub Issues](../../issues).
 
