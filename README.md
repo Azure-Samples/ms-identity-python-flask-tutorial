@@ -17,7 +17,7 @@ urlFragment: "ms-identity-python-flask-tutorial"
 
 # Tutorial: Enable your Python Flask webapp to sign in users and call APIs with the Microsoft identity platform
 
-The [Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/v2-overview), along with [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) (Azure AD) and [Azure Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/overview) (Azure AD B2C) are central to the **Azure** cloud ecosystem. This tutorial aims to take you through the fundamentals of modern authentication with JavaScript, using the [Microsoft Authentication Library (MSAL) for Python](https://github.com/AzureAD/microsoft-authentication-library-for-python)
+The [Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/v2-overview), along with [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) (Azure AD) and [Azure Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/overview) (Azure AD B2C) are central to the **Azure** cloud ecosystem. This tutorial aims to take you through the fundamentals of modern authentication with Python, using the [Microsoft Authentication Library (MSAL) for Python](https://github.com/AzureAD/microsoft-authentication-library-for-python)
 
 We recommend following the chapters in successive order. However, the code samples are self-contained, so feel free to pick samples by topics that you may need at the moment.
 
@@ -44,37 +44,24 @@ Please refer to each sample's README for sample-specific recommendations.
 
 ## Contents
 
-### Chapter 1: Authentication
+### Chapter 1: Adding Authentication with Azure AD in your web application
 
 |               |               |
 |---------------|---------------|
 | <img src="./ReadmeFiles/sign-in.png" width="200"> | [**1.1 Sign in with Azure AD**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-authentication) </br> Sign in your users with **Azure AD** and learn to work with **ID Tokens**.  |
 | <img src="./ReadmeFiles/sign-in-2.png" width="200"> | [**1.2 Sign in with Azure AD B2C**](https://github.com/Azure-Samples/ms-identity-b2c-python-flask-webapp-authentication) </br> Sign in your customers with **Azure AD B2C**. Learn to integrate with **external social identity providers**. Learn how to use **user-flows** and **custom policies**. |
 
-### Chapter 2: Call MS Graph
+### Chapter 2: Sign-in a user and get an Access Token for Microsoft Graph
 
 |                |               |
 |----------------|---------------|
-| <img src="./ReadmeFiles/topology.png" width="200"> | [**2.1 Acquire an Access Token from Azure AD and call Microsoft Graph**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-call-graph) </br> Acquire an **Access Token** that Authorizes you to call the **Microsoft Graph API**. |
+| <img src="./ReadmeFiles/topology.png" width="200"> | [**2.1 Acquire an Access Token from Azure AD and call Microsoft Graph**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-call-graph) </br> Here we build on the concepts we built to authenticate users to further acquire an Access Token for Microsoft Graph and then call the **Microsoft Graph API**. |
 
-<!-- ### Chapter 3: protect your web API
-
-|                 |               |
-|-----------------|---------------|
-| <img src="./3-Authorization-II/3-1-call-api/ReadmeFiles/topology_callapi.png" width="200"> | [**Protect and call a web API on Azure AD**](https://github.com/Azure-Samples/ms-identity-javascript-tutorial/tree/main/3-Authorization-II/3-1-call-api) </br> Protect your web API with the **Azure AD**. Use a client application to sign-in a user, acquire an **Access Token** for your web API and call your protected Web API. |
-| <img src="./3-Authorization-II/3-2-call-api-b2c/ReadmeFiles/topology_b2c_callapi.png" width="200"> | [**Protect and call a web API on Azure AD B2C**](https://github.com/Azure-Samples/ms-identity-javascript-tutorial/tree/main/3-Authorization-II/3-2-call-api-b2c) </br> Protect your web API with **Azure AD B2C**. Use a client application to sign-in a user, acquire an **Access Token** for your web API and call your protected web API. | -->
-
-<!-- ### Chapter 4: Advanced Grants
+### Chapter 3: Deploy your app to Azure
 
 |                 |               |
 |-----------------|---------------|
-| <img src="./4-AdvancedGrants/4-1-call-api-graph/ReadmeFiles/topology_obo.png" width="200"> | [**Call a web API that calls Microsoft Graph on behalf of a user**](https://github.com/Azure-Samples/ms-identity-javascript-tutorial/tree/main/4-AdvancedGrants/4-1-call-api-graph) </br> Enhance your protected web API to acquire an **Access Token** for Microsoft Graph **on-behalf-of** a user signed-in to the client app. | -->
-
-### Chapter 3: Deployment
-
-|                 |               |
-|-----------------|---------------|
-| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**3.1 Deploy to Azure Storage and App Service**](https://github.com/Azure-Samples/ms-identity-python-flask-deployment) </br> Prepare your app for deployment to **Azure App Service** and use vscode to deploy your code. |
+| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**3.1 Deploy to Azure Storage and App Service**](https://github.com/Azure-Samples/ms-identity-python-flask-deployment) </br> Finally, we prepare your app for deployment to various Azure services. Learn how to package and upload files, Configure authentication parameters and use the various Azure services for managing your operations. |
 
 ## We'd love your feedback!
 
