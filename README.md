@@ -44,9 +44,6 @@ Please refer to each sample's README for sample-specific recommendations.
 
 ## Contents
 
-- For **Azure AD**, start from [here](./1-Authentication/1.1-Flask-AuthN-My-Tenant/README.md)
-- For **Azure AD B2C**, start from [here](./1-Authentication/1.3-Flask-AuthN-B2C/README.md)
-
 ### Chapter 1: Authentication
 
 |               |               |
