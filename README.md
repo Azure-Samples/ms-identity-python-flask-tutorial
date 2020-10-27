@@ -44,21 +44,21 @@ Please refer to each sample's README for sample-specific recommendations.
 
 ## Contents
 
-- For **Azure AD**, start from [here]((./1-Authentication/1.1-Flask-AuthN-My-Tenant/README.md)
+- For **Azure AD**, start from [here](./1-Authentication/1.1-Flask-AuthN-My-Tenant/README.md)
 - For **Azure AD B2C**, start from [here](./1-Authentication/1.3-Flask-AuthN-B2C/README.md)
 
 ### Chapter 1: Authentication
 
 |               |               |
 |---------------|---------------|
-| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**1.1 Sign in with Azure AD**](./1-Authentication/1.1-Flask-AuthN-My-Tenant) </br> Sign in your users with **Azure AD** and learn to work with **ID Tokens**.  |
-| <img src="./ReadmeFiles/sign-in-2.png" width="200"> | [**1.2 Sign in with Azure AD B2C**](./1-Authentication/1.3-Flask-AuthN-B2C) </br> Signmin your customers with **Azure AD B2C**. Learn to integrate with **external social identity providers**. Learn how to use **user-flows** and **custom policies**. |
+| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**1.1 Sign in with Azure AD**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-authentication) </br> Sign in your users with **Azure AD** and learn to work with **ID Tokens**.  |
+| <img src="./ReadmeFiles/sign-in-2.png" width="200"> | [**1.2 Sign in with Azure AD B2C**](https://github.com/Azure-Samples/ms-identity-b2c-python-flask-webapp-authentication) </br> Sign in your customers with **Azure AD B2C**. Learn to integrate with **external social identity providers**. Learn how to use **user-flows** and **custom policies**. |
 
 ### Chapter 2: Call MS Graph
 
 |                |               |
 |----------------|---------------|
-| <img src="./ReadmeFiles/topology.png" width="200"> | [**2.1 Acquire an Access Token from Azure AD and call Microsoft Graph**](./2-CallGraphAPI/2-1-Flask-Call-Graph) </br> Acquire an **Access Token** that Authorizes you to call the **Microsoft Graph API**. |
+| <img src="./ReadmeFiles/topology.png" width="200"> | [**2.1 Acquire an Access Token from Azure AD and call Microsoft Graph**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-call-graph) </br> Acquire an **Access Token** that Authorizes you to call the **Microsoft Graph API**. |
 
 <!-- ### Chapter 3: protect your web API
 
@@ -77,7 +77,7 @@ Please refer to each sample's README for sample-specific recommendations.
 
 |                 |               |
 |-----------------|---------------|
-| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**3.1 Deploy to Azure Storage and App Service**](./3-Deployment/3.1-Flask-Deploy-To-Azure) </br> Prepare your app for deployment to **Azure App Service** and use vscode to deploy your code. |
+| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**3.1 Deploy to Azure Storage and App Service**](https://github.com/Azure-Samples/ms-identity-python-flask-deployment) </br> Prepare your app for deployment to **Azure App Service** and use vscode to deploy your code. |
 
 ## We'd love your feedback!
 
