@@ -11,11 +11,11 @@ products:
 - azure-active-directory
 - azure-active-directory-b2c
 - microsoft-identity-platform
-description: "Tutorial: Enable your Python Flask webapp to sign in users, protect endpoints, and call APIs with the Microsoft identity platform"
+description: "Tutorial: Enable your Python Flask webapp to Sign-in users, protect endpoints, and call APIs with the Microsoft identity platform"
 urlFragment: "ms-identity-python-flask-tutorial"
 ---
 
-# Tutorial: Enable your Python Flask webapp to sign in users and call APIs with the Microsoft identity platform
+# Tutorial: Enable your Python Flask webapp to Sign-in users and call APIs with the Microsoft identity platform
 
 The [Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/v2-overview), along with [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) (Azure AD) and [Azure Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/overview) (Azure AD B2C) are central to the **Azure** cloud ecosystem. This tutorial aims to take you through the fundamentals of modern authentication with Python, using the [Microsoft Authentication Library (MSAL) for Python](https://github.com/AzureAD/microsoft-authentication-library-for-python)
 
@@ -48,20 +48,20 @@ Please refer to each sample's README for sample-specific recommendations.
 
 |               |               |
 |---------------|---------------|
-| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**1.1 Sign in with Azure AD**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-authentication) </br> Sign in your users with **Azure AD** and learn to work with **ID Tokens**.  |
-| <img src="./ReadmeFiles/sign-in-2.png" width="200"> | [**1.2 Sign in with Azure AD B2C**](https://github.com/Azure-Samples/ms-identity-b2c-python-flask-webapp-authentication) </br> Sign in your customers with **Azure AD B2C**. Learn to integrate with **external social identity providers**. Learn how to use **user-flows** and **custom policies**. |
+| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**1.1 Sign-in with Azure AD**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-authentication) </br> Sign-in your users with **Azure AD** and learn to work with **ID Tokens**.  |
+| <img src="./ReadmeFiles/sign-in-2.png" width="200"> | [**1.2 Sign-in with Azure AD B2C**](https://github.com/Azure-Samples/ms-identity-b2c-python-flask-webapp-authentication) </br> Sign-in your customers with **Azure AD B2C**. Learn to integrate with **external social identity providers**. Learn how to use **user-flows** and **custom policies**. |
 
 ### Chapter 2: Sign-in a user and get an Access Token for Microsoft Graph
 
 |                |               |
 |----------------|---------------|
-| <img src="./ReadmeFiles/topology.png" width="200"> | [**2.1 Acquire an Access Token from Azure AD and call Microsoft Graph**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-call-graph) </br> Here we build on the concepts we built to authenticate users to further acquire an Access Token for Microsoft Graph and then call the **Microsoft Graph API**. |
+| <img src="./ReadmeFiles/topology.png" width="200"> | [**2.1 Acquire an Access Token from Azure AD and call Microsoft Graph**](https://github.com/Azure-Samples/ms-identity-python-flask-webapp-call-graph) </br> Here we build on the concepts we learnt earlier to authenticate users to got further and acquire an Access Token for and then call the **Microsoft Graph API**. |
 
 ### Chapter 3: Deploy your app to Azure
 
 |                 |               |
 |-----------------|---------------|
-| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**3.1 Deploy to Azure Storage and App Service**](https://github.com/Azure-Samples/ms-identity-python-flask-deployment) </br> Finally, we prepare your app for deployment to various Azure services. Learn how to package and upload files, Configure authentication parameters and use the various Azure services for managing your operations. |
+| <img src="./ReadmeFiles/sign-in.png" width="200"> | [**3.1 Deploy to Azure Storage and App Service**](https://github.com/Azure-Samples/ms-identity-python-flask-deployment) </br> Finally, we prepare your app for deployment to various Azure services. Learn how to package and upload files, configure authentication parameters and use the various Azure services for managing your operations. |
 
 ## We'd love your feedback!
 
